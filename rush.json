@@ -38,5 +38,18 @@
 
   "variants": [],
 
-  "projects": []
+  "projects": [
+    {
+      "packageName": "@tools/typescript",
+      "projectFolder": "tools/typescript"
+    },
+    {
+      "packageName": "@apps/ui",
+      "projectFolder": "apps/ui"
+    },
+    {
+      "packageName": "@design/button",
+      "projectFolder": "src/design/button"
+    }
+  ]
 }

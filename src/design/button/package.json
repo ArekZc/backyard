@@ -1,0 +1,16 @@
+{
+  "name": "@design/button",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@angular/common": "~12.0.2",
+    "@angular/core": "~12.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "devDependencies": {
+    "@angular/common": "~12.0.2",
+    "@angular/core": "~12.0.2",
+    "@tools/typescript": "workspace:*"
+  }
+}
