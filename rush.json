@@ -48,8 +48,12 @@
       "projectFolder": "apps/ui"
     },
     {
-      "packageName": "@design/button",
-      "projectFolder": "src/design/button"
+      "packageName": "@apps/api",
+      "projectFolder": "apps/api"
+    },
+    {
+      "packageName": "@libs/design",
+      "projectFolder": "libs/design"
     }
   ]
 }
