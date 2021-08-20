@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <button dg-button>Click me!</button>
-    <router-outlet></router-outlet>
-  `,
-  styles: []
+  template: `<button dgButton>{{ title }}</button>`,
+  styles: [`
+    :host {
+      appearance: none;
+    }
+  `]
 })
 export class AppComponent {
   title = 'ui';

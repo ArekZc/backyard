@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ButtonModule } from '@libs/design/button';
+import { ButtonModule } from '@libs/design';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
