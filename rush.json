@@ -16,7 +16,7 @@
   "ensureConsistentVersions": true,
 
   "projectFolderMinDepth": 2,
-  "projectFolderMaxDepth": 3,
+  "projectFolderMaxDepth": 2,
 
   "gitPolicy": {
     "versionBumpCommitMessage": "Applying package updates. [skip-ci]",
@@ -42,6 +42,18 @@
     {
       "packageName": "@tools/typescript",
       "projectFolder": "tools/typescript"
+    },
+    {
+      "packageName": "@tools/prettier",
+      "projectFolder": "tools/prettier"
+    },
+    {
+      "packageName": "@tools/eslint",
+      "projectFolder": "tools/eslint"
+    },
+    {
+      "packageName": "@tools/jest",
+      "projectFolder": "tools/jest"
     },
     {
       "packageName": "@apps/ui",

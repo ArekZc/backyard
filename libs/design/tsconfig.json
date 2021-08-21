@@ -1,5 +1,5 @@
 {
-  "extends": "@tools/typescript/tsconfig.json",
+  "extends": "@tools/typescript/tsconfig.angular.json",
   "compilerOptions": {
     "baseUrl": "."
   },

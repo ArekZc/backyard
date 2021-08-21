@@ -28,6 +28,7 @@
     "@angular/compiler-cli": "~12.0.2",
     "@types/node": "^16.0.0",
     "typescript": "~4.2.3",
-    "@tools/typescript": "workspace:*"
+    "@tools/typescript": "workspace:*",
+    "@tools/eslint": "workspace:*"
   }
 }

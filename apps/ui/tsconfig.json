@@ -1,9 +1,10 @@
 {
-  "extends": "@tools/typescript/tsconfig.json",
+  "extends": "@tools/typescript/tsconfig.angular.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@angular/*": ["./node_modules/@angular/*"],
+      "@libs/*": ["./node_modules/@libs/*/dist", "./node_modules/@libs/*"]
     }
   },
   "angularCompilerOptions": {

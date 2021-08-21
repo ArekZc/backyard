@@ -1,0 +1,6 @@
+{
+  "name": "@tools/prettier",
+  "dependencies": {
+    "prettier": "^2.3.2"
+  }
+}
