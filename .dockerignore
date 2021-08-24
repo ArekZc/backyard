@@ -73,3 +73,5 @@ docker-compose.yml
 .gitignore
 .git
 .dockerignore
+
+workspace.code-workspace

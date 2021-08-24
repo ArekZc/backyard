@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "folke.vscode-monorepo-workspace"
+    ]
+  },
+  "settings": {
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+  }
+}

@@ -7,8 +7,8 @@ import { ApiService } from './api.service';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(process.cwd(), 'public')
-    })
+      rootPath: join(process.cwd(), 'public'),
+    }),
   ],
   controllers: [ApiController],
   providers: [ApiService],
