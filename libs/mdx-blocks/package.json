@@ -1,0 +1,10 @@
+{
+    "name": "@libs/mdx-blocks",
+    "main": "src/index.js",
+    "peerDependencies": {
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "react": "^17.0.2"
+    }
+}

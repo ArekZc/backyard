@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: '<ng-content></ng-content>',
   styles: [`
     :host {
-      color: red;
+      color: black;
     }
   `]
 })

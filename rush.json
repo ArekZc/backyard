@@ -44,10 +44,6 @@
       "projectFolder": "tools/typescript"
     },
     {
-      "packageName": "@tools/prettier",
-      "projectFolder": "tools/prettier"
-    },
-    {
       "packageName": "@tools/eslint",
       "projectFolder": "tools/eslint"
     },
@@ -64,8 +60,16 @@
       "projectFolder": "apps/api"
     },
     {
+      "packageName": "@apps/landing-page",
+      "projectFolder": "apps/landing-page"
+    },
+    {
       "packageName": "@libs/design",
       "projectFolder": "libs/design"
+    },
+    {
+      "packageName": "@libs/mdx-blocks",
+      "projectFolder": "libs/mdx-blocks"
     }
   ]
 }
