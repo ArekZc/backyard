@@ -1,0 +1,21 @@
+@value vBackgroundColorPrimary: #000000;
+@value vBackgroundColorSecondary: #1e1e1e;
+
+@value vFeedbackColorInfo: #f2f2f2;
+@value vFeedbackColorError: #ff0000;
+@value vFeedbackBackgroundColorError: #ffe5e5;
+@value vFeedbackColorWarning: #f5c400;
+@value vFeedbackBackgroundColorWarning: #fef9e5;
+@value vFeedbackColorSuccess: #00af41;
+@value vFeedbackBackgroundColorSuccess: #e5f7eb;
+
+@value vInteractiveColorPrimary: #0077cf;
+@value vInteractiveColorPrimaryHover: #005ba1;
+@value vInteractiveColorPrimaryActive: #004376;
+
+@value vInteractiveColorSecondary: transparent;
+@value vInteractiveColorSecondaryHover: #5e5e5e;
+@value vInteractiveColorSecondaryActive: #333333;
+
+@value vTextColorPrimary: #ffffff;
+@value vTextColorSecondary: #ffffff;

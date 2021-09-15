@@ -1,0 +1,61 @@
+@value (
+    vInteractiveColorPrimary,
+    vInteractiveColorPrimaryActive,
+    vInteractiveColorPrimaryHover,
+    vInteractiveColorSecondary,
+    vInteractiveColorSecondaryActive,
+    vInteractiveColorSecondaryHover,
+    vTextColorPrimary,
+    vTextColorSecondary
+) from './colors.module.css';
+
+.button {
+  font-family: "Univers", HelveticaNeue, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+  align-items: center;
+  border: 0;
+  border-radius: 24px;
+  cursor: pointer;
+  display: inline-flex;
+  margin: 0;
+  outline: 0;
+  padding: 4px 16px;
+  position: relative;
+  text-align: center;
+  transition: background 200ms linear, color 200ms linear, border 200ms linear,
+    fill 200ms linear, box-shadow 200ms linear;
+}
+
+.primary {
+  composes: button;
+  background-color: vInteractiveColorPrimary;
+  color: vTextColorPrimary;
+}
+
+.primary:active {
+  background-color: vInteractiveColorPrimaryActive;
+}
+
+.primary:hover,
+.primary:focus {
+  background-color: vInteractiveColorPrimaryHover;
+}
+
+.secondary {
+  composes: button;
+  background-color: vInteractiveColorSecondary;
+  color: vTextColorSecondary;
+}
+
+.secondary:active {
+  background-color: vInteractiveColorSecondaryActive;
+}
+
+.secondary:hover,
+.secondary:focus {
+  background-color: vInteractiveColorSecondaryHover;
+}

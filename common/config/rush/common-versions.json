@@ -3,5 +3,7 @@
 
   "preferredVersions": {},
 
-  "allowedAlternativeVersions": {}
+  "allowedAlternativeVersions": {
+    "webpack": ["4.44.2", "5.52.0"]
+  }
 }

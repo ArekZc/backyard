@@ -1,26 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button } from '@libs/mdx-blocks';
+import button from '@libs/theme/button.module.css';
+import buttonGroup from '@libs/theme/buttonGroup.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button>Click me</Button>
-      </header>
+    <div className={buttonGroup.buttonGroup}>
+      <button className={button.primary}>Click me</button>
+      <button className={button.primary}>Click me</button>
+      <button className={button.primary}>Click me</button>
     </div>
   );
 }
