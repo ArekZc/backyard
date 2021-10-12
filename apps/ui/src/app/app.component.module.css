@@ -1,0 +1,12 @@
+@value sThemeLight: :global .theme-light;
+@value vBackgroundColorSecondary from '@libs/theme/colors.module.css';
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+sThemeLight {
+  background-color: vBackgroundColorSecondary;
+}

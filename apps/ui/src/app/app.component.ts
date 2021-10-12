@@ -1,21 +1,19 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import button from '@libs/theme/button.module.css';
-import buttonGroup from '@libs/theme/buttonGroup.module.css';
+import styles from './app.component.module.css';
 
 @Component({
   selector: 'app-root',
   template: `
-    <div [class]="styles.buttonGroup.buttonGroup">
-      <button [class]="styles.button.primary">Click me</button>
-      <button [class]="styles.button.primary">Click me</button>
-      <button [class]="styles.button.primary">Click me</button>
+    <div class="theme-light" [ngClass]="[styles.container]">
+      <app-button-group>
+        <button appButton>Click me</button>
+        <button appButton>Click me</button>
+        <button appButton>Click me</button>
+      </app-button-group>
     </div>
   `,
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
-  readonly styles = {
-    buttonGroup,
-    button
-  }
+  readonly styles = styles;
 }
