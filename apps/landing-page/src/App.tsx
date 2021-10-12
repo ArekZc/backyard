@@ -1,14 +1,14 @@
 import './App.css';
-import button from '@libs/theme/button.module.css';
-import buttonGroup from '@libs/theme/buttonGroup.module.css';
+import { Button } from './Button';
+import { ButtonGroup } from './ButtonGroup';
 
 function App() {
   return (
-    <div className={buttonGroup.buttonGroup}>
-      <button className={button.primary}>Click me</button>
-      <button className={button.primary}>Click me</button>
-      <button className={button.primary}>Click me</button>
-    </div>
+    <ButtonGroup>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
+    </ButtonGroup>
   );
 }
 
