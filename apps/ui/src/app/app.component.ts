@@ -1,14 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
+import styles from './app.component.module.css';
 
 @Component({
   selector: 'app-root',
-  template: `<button dgButton>{{ title }}</button>`,
-  styles: [`
-    :host {
-      appearance: none;
-    }
-  `]
+  template: `
+    <div class="theme-light" [ngClass]="[styles.container]">
+      <app-button-group>
+        <button appButton>Click me</button>
+        <button appButton>Click me</button>
+        <button appButton>Click me</button>
+      </app-button-group>
+    </div>
+  `,
+  encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
-  title = 'ui';
+  readonly styles = styles;
 }

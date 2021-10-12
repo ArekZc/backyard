@@ -68,6 +68,10 @@
       "projectFolder": "libs/design"
     },
     {
+      "packageName": "@libs/theme",
+      "projectFolder": "libs/theme"
+    },
+    {
       "packageName": "@libs/mdx-blocks",
       "projectFolder": "libs/mdx-blocks"
     }

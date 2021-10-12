@@ -1,0 +1,21 @@
+@value button from './button.module.css';
+
+.buttonGroup {
+  display: flex;
+}
+
+.buttonGroup .button {
+  border-radius: 0;
+}
+
+.buttonGroup .button:not(:last-child) {
+  margin-right: -1px;
+}
+
+.buttonGroup .button:first-child {
+  border-radius: 24px 0 0 24px;
+}
+
+.buttonGroup .button:last-child {
+  border-radius: 0 24px 24px 0;
+}
